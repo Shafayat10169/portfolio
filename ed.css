@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('hi.webp');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+	
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	padding: 5px 30px;
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.title{
+	position: absolute;
+	margin-top: 50px;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	margin-top: 25px;
+	font-size: 25px;
+	color: #fff;
+}
+.title h3{
+	font size: 100px;
+	font-style: italic;
+	color: #fff;
+}
+.title h4{
+	font-size: 100px;
+	font-style: italic;
+	color: #fff;
+}
+.title h5{
+	font-size: 100px;
+	font-style: italic;
+	color: #fff;
+}
+.title h6{
+	font-size: 25px;
+	font-style: italic;
+	color: #fff;
+}
